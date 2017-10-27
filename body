@@ -1,0 +1,35 @@
+<div id="box">
+			<div class="container">
+				<header>
+					<h1>super</h1><span>countdown timer</span>
+					<h2>using it as you wish!</h2>
+				</header>
+				<form>目的日期：
+					<input id="inyear" name="year" type="text"><span>年</span>
+					<input id="inmonth" name="month" type="text"><span>月</span>
+					<input id="inday" name="day" type="text"><span>日</span>
+					<input id="inhour" name="hour" type="text"><span>时</span>
+					<input id="inminute" name="minute" type="text"><span>分</span>
+					<input id="insecond" name="second" type="text"><span>秒</span>
+					<input type="button" value="确定" onclick="show()" class="confirm">
+					<input type="button" value="重置" onclick="javascript:location.reload();" class="reload">
+				</form>
+			</div>
+			<div class="centerd">
+				<div class="board">&nbsp&nbsp&nbsp<br/>还剩：
+					<div class="time_border"><span id="1"></span></div>
+					<div class="time_border"><span id="2"></span></div>
+					<div class="time_border"><span id="3"></span></div>
+					<div class="time_border"><span id="4"></span></div>
+
+				</div>
+			</div>
+			<hr/>
+			<div class="bott">
+				<ul>
+					<li>这是我好不容易完成的倒计时器QAQ</li>
+					<li>希望评审我作品的精弘大佬能多给我打点分，让我留在精弘。谢谢啦_(:з)∠)_</li>
+					<li>黄潇扬制作   2017.10.15</li>
+				</ul>
+			</div>
+		</div>
